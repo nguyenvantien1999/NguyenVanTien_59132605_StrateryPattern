@@ -25,7 +25,7 @@ public class main {
         System.out.println("5 * 10 = "+tinhToan.tinh(5, 10));
         
         tinhToan.setTinhToan(new Chia());
-        System.out.println("500/10 = "+tinhToan.tinh(500, 10));
+        System.out.println("500/10 = "+tinhToan.tinh(500, 0));
         
     }
 }
