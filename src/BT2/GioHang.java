@@ -23,7 +23,8 @@ public class GioHang {
     public void sethinhThucTT(IThanhToan hinhThucTT){
         this.hinhThucTT = hinhThucTT;
     }
+    
     public double thanhToan(){
-        return 0;
+        return hinhThucTT.thanhToan(0);
     }
 }
